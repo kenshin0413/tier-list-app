@@ -1,2 +1,0 @@
-Target dependency graph (1 target)
-Target 'tier-list-app' in project 'tier-list-app' (no dependencies)
