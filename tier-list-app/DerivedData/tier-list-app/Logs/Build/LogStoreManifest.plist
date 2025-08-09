@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>11</integer>
+	<key>logs</key>
+	<dict>
+		<key>8A3E19DE-01D4-4CC9-A9C7-D2951E8405FB</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>8A3E19DE-01D4-4CC9-A9C7-D2951E8405FB.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>tier-list-app project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>tier-list-app</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build (Automatic) tier-list-app</string>
+			<key>timeStartedRecording</key>
+			<real>776418438.056512</real>
+			<key>timeStoppedRecording</key>
+			<real>776418440.367185</real>
+			<key>title</key>
+			<string>Build (Automatic) tier-list-app</string>
+			<key>uniqueIdentifier</key>
+			<string>8A3E19DE-01D4-4CC9-A9C7-D2951E8405FB</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
