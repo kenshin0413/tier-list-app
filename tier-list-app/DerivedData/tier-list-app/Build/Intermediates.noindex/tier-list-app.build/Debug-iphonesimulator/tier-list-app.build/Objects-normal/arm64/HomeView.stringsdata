@@ -1,0 +1,16 @@
+{
+  "source": "/Users/kenshin/Desktop/tier-list-app/tier-list-app/tier-list-app/HomeView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Hello, World!",
+        "location": {
+          "startingColumn": 77,
+          "startingLine": 18
+        }
+      }
+    ]
+  },
+  "version": 1
+}

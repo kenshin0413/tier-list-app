@@ -1,0 +1,3 @@
+Target dependency graph (2 targets)
+Target 'tier-list-app' in project 'tier-list-app' (no dependencies)
+Target 'tier-list-app' in project 'tier-list-app' (no dependencies)
