@@ -10,9 +10,22 @@
 		9442565F2E473480007181E8 /* tier-list-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tier-list-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		944256A92E4A2771007181E8 /* Exceptions for "tier-list-app" folder in "tier-list-app" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 9442565E2E473480007181E8 /* tier-list-app */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		944256612E473480007181E8 /* tier-list-app */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				944256A92E4A2771007181E8 /* Exceptions for "tier-list-app" folder in "tier-list-app" target */,
+			);
 			path = "tier-list-app";
 			sourceTree = "<group>";
 		};
@@ -254,6 +267,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"tier-list-app/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "tier-list-app/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "写真ライブラリにアクセスして画像を追加します\n写真ライブラリにアクセスして画像を追加します\n写真ライブラリにアクセスして画像を追加します\n写真ライブラリにアクセスして画像を追加します";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -282,6 +298,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"tier-list-app/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "tier-list-app/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "写真ライブラリにアクセスして画像を追加します\n写真ライブラリにアクセスして画像を追加します\n写真ライブラリにアクセスして画像を追加します\n写真ライブラリにアクセスして画像を追加します";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

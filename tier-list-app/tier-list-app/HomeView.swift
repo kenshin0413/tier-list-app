@@ -8,10 +8,35 @@
 import SwiftUI
 
 struct HomeView: View {
+    @State var selectedTab: Int = 1
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        TabView(selection: $selectedTab) {
+            NavigationStack {
+                ListView()
+            }
+            .tabItem {
+                Label("一覧", systemImage: "list.clipboard")
+            }
+            .tag(1)
+            
+            NavigationStack {
+                ContentView()
+            }
+            .tabItem {
+                Label("作成", systemImage: "plus.circle")
+            }
+            .tag(2)
+            
+            NavigationStack {
+                SettingView()
+            }
+            .tabItem {
+                Label("設定", systemImage: "gearshape")
+            }
+        }
     }
 }
+
 
 #Preview {
     HomeView()
