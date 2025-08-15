@@ -1,5 +1,5 @@
 //
-//  InputView.swift
+//  PhotoView.swift
 //  tier-list-app
 //
 //  Created by miyamotokenshin on R 7/08/09.
@@ -8,15 +8,13 @@
 import SwiftUI
 import PhotosUI
 
-struct InputView: View {
+struct PhotoView: View {
     var onImagePicked: (UIImage) -> Void
     @Environment(\.dismiss) private var dismiss
     @State private var selectedItem: PhotosPickerItem? = nil
     @State private var selectedImage: UIImage? = nil
-    
     init(onImagePicked: @escaping (UIImage) -> Void) {
         self.onImagePicked = onImagePicked
-        
         let appearance = UINavigationBarAppearance()
         appearance.configureWithOpaqueBackground()
         appearance.backgroundColor = UIColor.black.withAlphaComponent(0.1)
@@ -26,7 +24,6 @@ struct InputView: View {
         UINavigationBar.appearance().scrollEdgeAppearance = appearance
         UINavigationBar.appearance().compactAppearance = appearance
     }
-    
     var body: some View {
         NavigationStack {
             VStack(spacing: 50) {
@@ -47,7 +44,7 @@ struct InputView: View {
                             .frame(width: 100, height: 100)
                             .foregroundStyle(.white)
                     }
-                    .onChange(of: selectedItem) { 
+                    .onChange(of: selectedItem) {
                         Task {
                             if let data = try? await selectedItem?.loadTransferable(type: Data.self),
                                let uiImage = UIImage(data: data) {
@@ -71,7 +68,7 @@ struct InputView: View {
                 }
             }
             .frame(maxWidth: .infinity, maxHeight: .infinity)
-            .background(Color(red: 0, green: 0, blue: 0, opacity: 0.85))
+            .background(Color.black.opacity(0.85))
             .navigationTitle("アイテム追加")
             .toolbarTitleDisplayMode(.inline)
         }
@@ -79,5 +76,5 @@ struct InputView: View {
 }
 
 #Preview {
-    InputView { _ in }
+    PhotoView { _ in }
 }
