@@ -11,7 +11,7 @@ import SwiftUI
 struct tier_list_appApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
         }
     }
 }
