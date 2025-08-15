@@ -9,10 +9,11 @@ import SwiftUI
 
 struct HomeView: View {
     @State var selectedTab: Int = 1
+    @State private var savedTiers: [SavedTier] = []
     var body: some View {
         TabView(selection: $selectedTab) {
             NavigationStack {
-                ListView()
+                ListView(savedTiers: $savedTiers)
             }
             .tabItem {
                 Label("一覧", systemImage: "list.clipboard")
@@ -20,7 +21,7 @@ struct HomeView: View {
             .tag(1)
             
             NavigationStack {
-                ContentView()
+                TierCreateView(savedTiers: $savedTiers)
             }
             .tabItem {
                 Label("作成", systemImage: "plus.circle")
@@ -33,10 +34,10 @@ struct HomeView: View {
             .tabItem {
                 Label("設定", systemImage: "gearshape")
             }
+            .tag(3)
         }
     }
 }
-
 
 #Preview {
     HomeView()
